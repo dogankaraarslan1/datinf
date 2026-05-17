@@ -17,6 +17,9 @@ Projektstruktur
 - barrierefreiheit.html: Barrierefreiheitserklärung
 - medien.html: Medien- und Lizenzdokumentation
 
+Veröffentlichte Website
+https://dogankaraarslan1.github.io/datinf/
+
 Technische Hinweise
 Die Website kann direkt ueber index.html im Browser geoeffnet werden. Alle
 verwendeten Bilder und Grafiken liegen lokal im Ordner assets/img/. Die
