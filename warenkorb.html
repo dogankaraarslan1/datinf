@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | datinf</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Zum Inhalt springen</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html"><img src="assets/img/datinf-logo-placeholder.svg" alt=""><span>datinf</span></a>
+    <nav aria-label="Hauptnavigation">
+      <a href="index.html">Start</a>
+      <a href="produkt.html">Produkt</a>
+      <a href="warenkorb.html" aria-current="page">Shop</a>
+      <a href="about.html">About</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="lizenz.html">Lizenz</a>
+      <a href="agb.html">AGB</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="barrierefreiheit.html">Barrierefreiheit</a>
+      <a href="medien.html">Medien</a>
+    </nav>
+  </div>
+</header>
+<main id="content">
+
+<h1>Webshop</h1>
+<section class="grid">
+  <article class="card">
+    <img class="card-img" src="assets/img/dashboard-screenshot.jpg" alt="Projektmanagement-Dashboard als Produktansicht des Team-Abos">
+    <h2>Team-Abo</h2>
+    <p class="muted">Für kleine Teams bis 15 Personen.</p>
+    <p><strong>9,90 € pro Monat</strong></p>
+    <button type="button">In den Warenkorb</button>
+  </article>
+  <article class="card">
+    <img class="card-img" src="assets/img/product-desk.jpg" alt="Laptop und Arbeitsmaterialien als Platzhalter für Export Plus">
+    <h2>Export Plus</h2>
+    <p class="muted">Einmalige Erweiterung für lokale Datenexporte.</p>
+    <p><strong>29 € einmalig</strong></p>
+    <button type="button">In den Warenkorb</button>
+  </article>
+</section>
+
+<section class="card">
+  <h2>Bestellübersicht</h2>
+  <p>Dieser Checkout ist als statische Beispielansicht umgesetzt. Es werden keine echten Zahlungen verarbeitet.</p>
+  <form>
+    <label for="name">Name</label>
+    <input id="name" name="name" autocomplete="name" required>
+    <label for="email">E-Mail</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+    <label for="payment">Zahlungsart</label>
+    <select id="payment" name="payment">
+      <option>Kreditkarte (Beispiel)</option>
+      <option>PayPal (Beispiel)</option>
+      <option>Rechnung (Beispiel)</option>
+    </select>
+    <p class="muted" id="checkout-note">Es werden keine echten Zahlungsdaten verarbeitet.</p>
+    <button type="button">Bestellung simulieren</button>
+  </form>
+</section>
+
+</main>
+<footer>
+  <div class="footer-inner">
+    <span>&copy; 2026 datinf GmbH</span>
+    <span>Statischer Webshop für Daten- und Informatikrecht</span>
+  </div>
+</footer>
+</body>
+</html>
